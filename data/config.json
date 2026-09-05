@@ -21,7 +21,7 @@
 
   "app_updates": 
   {
-    "enabled": false,
+    "enabled": true,
 
     "platforms": {
       "android": {
