@@ -1,19 +1,72 @@
 {
   "kml": {
-    "version": "1.3.0",
+    "version": "1.0.0",
     "hash": "86-1B-49-BA-63-1A-37-81-68-55-47-7A-86-A4-40-19-D2-62-99-03-39-2E-DB-DA-4B-07-1B-18-DF-6B-63-53",
     "cloudflare_url": "https://atlas-elsheikh-zayed.pages.dev/data/district.kml",
-    "google_drive_url": "https://drive.google.com/uc?export=download&id=1Yw5vPEbBtlp8mJJBzFzCm3y_LPFGlHaI"
+    "google_drive_url": "https://drive.google.com/uc?export=download&id=1mPobdjz1xOqKQ5OoF2tNWGBJh9RIo2fJ"
   },
+
   "database": {
     "version": "1.0.0",
     "hash": "77-D7-49-80-F6-14-9E-5A-87-E0-79-E3-EE-70-10-D7-35-57-CE-00-72-F2-64-D4-BB-DA-AD-BF-F7-A5-14-E8",
     "cloudflare_url": "https://atlas-elsheikh-zayed.pages.dev/data/district.db",
-    "google_drive_url": "https://drive.google.com/uc?export=download&id=1P4MqZ39w_tMFv4Id6MK77hIwX65oDiqj"
+    "google_drive_url": "https://drive.google.com/uc?export=download&id=18NEJksA11t-UaZrS771B6PZKSEe06g60"
   },
+
   "ads": {
-    "banner_enabled": true,
+    "banner_enabled": false,
     "banner_failure_cooldown_seconds": 60,
-    "interstitial_enabled": true
+    "interstitial_enabled": false
+  },
+
+  "app_updates": 
+  {
+    "enabled": false,
+
+    "platforms": {
+      "android": {
+        "latest_version": "1.0.0+1",
+        "minimum_version": "1.0.0+1",
+        "store_url": "https://play.google.com/store/apps/details?id=com.alberfared.atlaselsheikhzayed",
+
+        "soft_update": {
+          "enabled": true,
+          "cooldown": 
+          {
+            "days": 3,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
+          "message": "يُرجى تحديث التطبيق للحصول على أحدث التحسينات."
+        },
+
+        "hard_update": {
+          "message": "هذا الإصدار من التطبيق لم يعد مدعومًا. يُرجى تحديث التطبيق للمتابعة."
+        }
+      },
+
+      "ios": {
+        "latest_version": "1.0.0+1",
+        "minimum_version": "1.0.0+1",
+        "store_url": "https://apps.apple.com/app/idYOUR_APP_ID",
+
+        "soft_update": {
+          "enabled": true,
+          "cooldown":
+          {
+            "days": 3,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
+          "message": "يُرجى تحديث التطبيق للحصول على أحدث التحسينات."
+        },
+
+        "hard_update": {
+          "message": "هذا الإصدار من التطبيق لم يعد مدعومًا. يُرجى تحديث التطبيق للمتابعة."
+        }
+      }
+    }
   }
 }
