@@ -1,0 +1,3 @@
+# Explicitly allow KML and hash files in the website directory
+!*.kml
+!district.hash256.txt
